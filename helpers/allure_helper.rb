@@ -13,11 +13,11 @@ module AllureHelper
 
     def add_screenshot(name, file)
       Allure.add_attachment(
-        name:,
+        name: name,
         source: file,
         type: Allure::ContentType::PNG,
         test_case: true
        )
-     end
+    end
   end
 end
