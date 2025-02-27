@@ -86,3 +86,7 @@ Style/SafeNavigation:
 Style/SingleLineBlockParams:
   Description: 'Enforces the names of some block params.'
   Enabled: false
+
+AllCops:
+  SuggestExtensions: false
+  NewCops: enable
