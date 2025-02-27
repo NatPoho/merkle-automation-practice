@@ -1,7 +1,6 @@
 require_relative '../components/header'
 
 class Page
-
   attr_reader :driver
 
   def initialize(driver)
@@ -9,7 +8,7 @@ class Page
   end
 
   def visit(*page)
-    @driver.navigate.to full_url(page.first) 
+    @driver.navigate.to full_url(page.first)
   end
 
   def full_url(*page)
