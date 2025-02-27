@@ -1,0 +1,14 @@
+{
+  "name": "automation-practice",
+  "version": "1.0.0",
+  "description": "Use this project to test any theories related to test automation or GitHub.  There will also be helpful links here in the readme, as well as explanations and documentation in each file, etc.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.5"
+  }
+}
